@@ -5,15 +5,15 @@ const { existsSync } = require('fs')
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@secktor.live'
-global.github = 'https://github.com/SamPandey001/Secktor-Md'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '919628516236'
-global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
+global.email = 'wickiemd123@gmail.com'
+global.github = 'https://github.com/abd-khadher/WICKIE-MD'
+global.location = 'kerala IN'
+global.gurl = 'https://instagram.com/abd_khadher___' // add your username
+global.sudo = process.env.SUDO || '917560920774'
+global.website = 'https://github.com/abd-khadher/WICKIE-MD' //wa.me/+91000000000000
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
-  ownername:process.env.OWNER_NAME || 'SamPandey001',
+  botname: process.env.BOT_NAME || '𝚆𝙸𝙲𝙺𝙸𝙴-𝙼𝙳',
+  ownername:process.env.OWNER_NAME || 'abd-khadher',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0], 
   packname: process.env.PACK_INFO.split(";")[1],
@@ -36,8 +36,8 @@ module.exports = {
         APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'zeropgg' : process.env.HEROKU_APP_NAME
     },
   BRANCH: 'main',
-  VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
- LANG: process.env.THEME|| 'SECKTOR',
+  VERSION: process.env.VERSION === undefined ? 'v0.1' : process.env.VERSION,
+ LANG: process.env.THEME|| 'WICKIE-MD',
  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
