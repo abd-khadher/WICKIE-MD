@@ -37,7 +37,7 @@ module.exports = {
     },
   BRANCH: 'main',
   VERSION: process.env.VERSION === undefined ? 'v0.1' : process.env.VERSION,
- LANG: process.env.THEME|| 'WICKIE-MD',
+ LANG: process.env.THEME|| 'LUFFY',
  WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
