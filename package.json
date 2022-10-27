@@ -1,7 +1,7 @@
 {
-  "name": "Secktor-Md",
+  "name": "WICKIE-MD",
   "version": "0.0.5",
-  "description": "Multi device whatsapp bot by SamPandey001.",
+  "description": "Multi device whatsapp bot by abd-khadher",
   "main": "lib/client.js",
   "type": "commonjs",
   "scripts": {
@@ -19,7 +19,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "SamPandey001",
+  "author": "abd-khadher",
   "license": "GNU",
   "dependencies": {
     "@adiwajshing/baileys": "git+https://github.com/sampandey001/Baileys.git",
@@ -80,10 +80,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
+    "url": "git+https://github.com/abd-khadher/WICKIE-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/SamPandey001/Secktor-Md/issues"
+    "url": "https://github.com/abd-khadher/WICKIE-MD/issues"
   },
-  "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
+  "homepage": "https://github.com/abd-khadher/WICKIE-MD#readme"
 }
