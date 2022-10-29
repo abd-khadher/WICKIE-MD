@@ -59,7 +59,7 @@ str += `
 ┃ ⿻ ╰─────────────◆`
             }
 str += `\n╰━━━━━━━━━━━──⊷\n`
-str += `_🔖Send ${prefix}help <command name> to get detailed information of specific command._\n*📍Eg:* _${prefix}help anime_`;
+str += `_🔖Send ${prefix}help <command name> to get detailed information of specific command._\n*📍Eg:* _${prefix}owner`;
             let generatebutton = [{
 					buttonId: `${prefix}owner`,
 					buttonText: {
