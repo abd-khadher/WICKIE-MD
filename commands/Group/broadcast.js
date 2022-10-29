@@ -3,7 +3,7 @@ const { tlang,sleep } = require('../../lib')
 module.exports = {
     name: 'broadcast',
     category: 'owner',
-    desc: 'Sends SECKTOR userbot group link.',
+    desc: 'Sends WICKIE-MD userbot group link.',
     async exec(citel, Void,args,isCreator) {
       if(!isCreator) return citel.reply(tlang().owner)
       if(!args[0]) return citel.reply('_Provide me text to broadcast._')
