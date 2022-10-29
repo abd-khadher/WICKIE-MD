@@ -11,6 +11,7 @@ global.location = 'kerala IN'
 global.gurl = 'https://instagram.com/abd_khadher___' // add your username
 global.sudo = process.env.SUDO || '917560920774'
 global.website = 'https://github.com/abd-khadher/WICKIE-MD' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/WbQv5V7.jpeg'
 module.exports = {
   botname: process.env.BOT_NAME || '𝚆𝙸𝙲𝙺𝙸𝙴-𝙼𝙳',
   ownername:process.env.OWNER_NAME || 'abd-khadher',
@@ -49,3 +50,4 @@ fs.watchFile(file, () => {
     delete require.cache[file]
 	require(file)
 })
+
