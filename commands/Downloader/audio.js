@@ -16,7 +16,7 @@ module.exports = {
             listSerch.push({
                 title: i.title,
                 rowId: `${prefix}ytmp3 ${i.url}`,
-                description: `Secktor / ${i.timestamp}`
+                description: `wickie-md / ${i.timestamp}`
             })
         }
         const sections = [
